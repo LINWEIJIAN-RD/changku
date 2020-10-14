@@ -1,0 +1,47 @@
+;	STMicroelectronics dependencies file
+
+[Version]
+Keyword=ST7Project
+Number=1.3
+
+[Root.Source Files.check.c.Config.0]
+ExternDep= check.c "D:\Program Files\COSMIC\CXSTM8_32K\HSTM8\modsl.h"  my_define.h STM8L051F3.h CMT2300drive.h spi.h
+
+[Root.Source Files.cmt2300drive.c.Config.0]
+ExternDep= cmt2300drive.c  "D:\Program Files\COSMIC\CXSTM8_32K\HSTM8\modsl.h" my_define.h STM8L051F3.h  CMT2300drive.h spi.h
+
+[Root.Source Files.delay.c.Config.0]
+ExternDep= delay.c "D:\Program Files\COSMIC\CXSTM8_32K\HSTM8\modsl.h"
+
+[Root.Source Files.fault.c.Config.0]
+ExternDep= fault.c "D:\Program Files\COSMIC\CXSTM8_32K\HSTM8\modsl.h"  my_define.h STM8L051F3.h CMT2300drive.h spi.h
+
+[Root.Source Files.flash.c.Config.0]
+ExternDep= flash.c "D:\Program Files\COSMIC\CXSTM8_32K\HSTM8\modsl.h"  STM8L051F3.h
+
+[Root.Source Files.gpio.c.Config.0]
+ExternDep= gpio.c "D:\Program Files\COSMIC\CXSTM8_32K\HSTM8\modsl.h"  my_define.h STM8L051F3.h CMT2300drive.h spi.h
+
+[Root.Source Files.key.c.Config.0]
+ExternDep= key.c "D:\Program Files\COSMIC\CXSTM8_32K\HSTM8\modsl.h"  my_define.h STM8L051F3.h CMT2300drive.h spi.h
+
+[Root.Source Files.led&buz.c.Config.0]
+ExternDep= led&buz.c "D:\Program Files\COSMIC\CXSTM8_32K\HSTM8\modsl.h"  my_define.h STM8L051F3.h CMT2300drive.h spi.h
+
+[Root.Source Files.main.c.Config.0]
+ExternDep= main.c "D:\Program Files\COSMIC\CXSTM8_32K\HSTM8\modsl.h"  my_define.h STM8L051F3.h CMT2300drive.h spi.h
+
+[Root.Source Files.rf.c.Config.0]
+ExternDep= rf.c "D:\Program Files\COSMIC\CXSTM8_32K\HSTM8\modsl.h"  my_define.h STM8L051F3.h CMT2300drive.h spi.h
+
+[Root.Source Files.rf1.c.Config.0]
+ExternDep= rf1.c "D:\Program Files\COSMIC\CXSTM8_32K\HSTM8\modsl.h"  CMT2300drive.h STM8L051F3.h spi.h my_define.h rf1.h
+
+[Root.Source Files.spi.c.Config.0]
+ExternDep= spi.c "D:\Program Files\COSMIC\CXSTM8_32K\HSTM8\modsl.h" spi.h  my_define.h STM8L051F3.h CMT2300drive.h
+
+[Root.Source Files.stm8_interrupt_vector.c.Config.0]
+ExternDep= stm8_interrupt_vector.c  "D:\Program Files\COSMIC\CXSTM8_32K\HSTM8\modsl.h"
+
+[Root.Source Files.time1.c.Config.0]
+ExternDep= time1.c "D:\Program Files\COSMIC\CXSTM8_32K\HSTM8\modsl.h"  my_define.h STM8L051F3.h CMT2300drive.h spi.h
